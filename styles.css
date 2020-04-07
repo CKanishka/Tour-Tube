@@ -23,10 +23,12 @@ body{
 }
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 1em;
+    padding-left: 1em;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 3em;
+    max-width: 1135px;
 }
 .text-center{
     text-align: center;
@@ -120,4 +122,26 @@ header{
 .capsule.selected{
     background:#ec1943 ;
     color: white;
+}
+
+.section-title{
+    position: relative;
+}
+.section-title:before {
+    background: #cfd8dc;
+    width: 100%;
+}
+.section-title:before, .section-title:after {
+    content: '';
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.section-title:after {
+    background: #d50000;
+    width: 8%;
+}
+.section-title .red-word{
+    color:#ec1943;
 }
