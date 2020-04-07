@@ -249,3 +249,44 @@ header{
 .br-1{
     border-right: 2px solid gray;
 }
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    justify-content: space-evenly;
+}
+
+.item{
+    margin-bottom: 1.5em;
+}
+
+.grid-img{
+    position:relative
+}
+.grid-img img:hover{
+    opacity:0.8
+}
+.grid-img .title{
+    position: absolute;
+    padding: 0 15px;
+    top:50%;
+    bottom:50%;
+    font-size: 1.2em;
+    color:white;
+    font-family: "Lobster", serif;
+    opacity: 0.9;
+}
+.grid-img i{
+    cursor: pointer;
+    color:#ec1943;
+    font-size: 1.3em;
+    padding:0.5em;
+    border:2px dashed whitesmoke;
+    border-radius: 50%;
+}
+.grid-img img{
+    height: 20em;
+    width: 30em;
+}
+
