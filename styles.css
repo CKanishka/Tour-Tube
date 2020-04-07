@@ -56,3 +56,68 @@ header{
    margin-left: 0.1em;
    cursor: pointer;
 }
+
+.banner{
+    background-image: url(https://www.fabholidays.in/web/image/20820-1.jpg);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner-overlay {
+    background: rgba(59, 62, 82, 0.25);
+    height: 100%;
+    width: 100%;
+}
+ .banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-content .title{
+    font-family: "Lobster", serif;
+    color: #fff;
+    font-size: 4em;  
+}
+
+.play-btn{
+    background: whitesmoke;
+    color:#ec1943;
+    font-size: 2em;
+    display: inline;
+    border-radius: 50%;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.category-banner {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: space-around;
+    padding: 1.5em;
+    box-shadow: 0 0 10px 10px rgba(233, 31, 31, 0.1);
+}
+
+.capsule{
+    border-radius: 90px;
+    border: 1px solid #ec1943 ;
+    text-align: center;
+    padding:0 17px;
+    margin-right: 7px;
+    cursor: pointer;
+    
+}
+.capsule:hover{
+    background:#eb5472 ;
+    color:white
+}
+.capsule.selected{
+    background:#ec1943 ;
+    color: white;
+}
