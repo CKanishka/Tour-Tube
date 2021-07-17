@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     </head>
 <body>
@@ -30,13 +31,13 @@
         </div>
     </div>
 
-    <div class="category-banner row">
-        <h3 class="col-4 text-center">Choose a Category</h3>
-        <div class="col-8 row">
-            <div class="capsule selected"><p><i class="fa fa-globe"></i> All</p></div>
-            <div class="capsule"><p></p><i class="fa fa-cloud"></i> Hill Stations</p></div>
-            <div class="capsule"><p></p><i class="fa fa-ship"></i> Seas and beaches</p></div>
-            <div class="capsule"><p></p><i class="fa fa-tree"></i> Greenery</p></div>
+    <div class="category-wrapper row">
+        <h3 class="text-center">Choose a Category</h3>
+        <div class="row">
+            <div class="pill selected"><p><i class="fa fa-globe"></i> All</p></div>
+            <div class="pill"><p></p><i class="fa fa-cloud"></i> Hill Stations</p></div>
+            <div class="pill"><p></p><i class="fa fa-ship"></i> Seas and beaches</p></div>
+            <div class="pill"><p></p><i class="fa fa-tree"></i> Greenery</p></div>
         </div>
     </div>
 
@@ -45,92 +46,89 @@
         <div class="row">
             <div class="col-4 shadow">
                 <div class="card">
-                    <div class="cardImg">
+                    <div class="card-img-container">
                         <img src="./assets/mountain1.jpeg" alt="mountain1" />
                         <div class="ribbon">
                             <span class="ribbon-text">#7 Trending</span>
                         </div>
-                        <div class="card-play">
+                        <div class="play">
                             <i class="fa fa-play"></i>
                         </div>
-                        <div class="imageFooter">
+                        <div class="footer">
                             <div class="row">
-                                <div class="tagCapsule"><b><p>Mountains</p></b></div>
-                                <div class="tagCapsule"><b><p>Shillong</p></b></div>
-                            </div>
-                            
+                                <div class="tag"><b><p>Mountains</p></b></div>
+                                <div class="tag"><b><p>Shillong</p></b></div>
+                            </div>      
                         </div>
-                        <div class="cardContent">
-                            <div class="card-title">
-                                <p><b>My trip to the Scotland of the east</b></p>
-                            </div>
-                            <div>
-                                <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: India</span>
-                                <span class="sm-text greyText"><b>Uploaded by Raman Jaiswal</b></span>
-                            </div>
-                            <div class="sm-text row">
-                                <p><i class="fa fa-eye pr-1"></i><b>24k <span class="greyText pr-1">Views</span><i class="fa fa-thumbs-up pr-1"></i>2k <span class="greyText">Likes</span></b></p>
-                            </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <p><b>My trip to the Scotland of the east</b></p>
+                        </div>
+                        <div class="sm-text">
+                            <span class="pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: <b>India</b></span>
+                            <span>Uploaded by <b>Raman Jaiswal</b></span>
+                        </div>
+                        <div class="sm-text">
+                            <p><i class="fa fa-eye mr-1"></i><b>24k </b><span class="text-greymr-2">Views</span><i class="fa fa-thumbs-up mr-1"></i><b>2k </b><span class="greyText">Likes</span></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-4 shadow">
                 <div class="card">
-                    <div class="cardImg">
+                    <div class="card-img-container">
                         <img src="./assets/forest1.jpeg" alt="forest1" />
-                        <div class="card-play">
+                        <div class="play">
                             <i class="fa fa-play"></i>
                         </div>
-                        <div class="imageFooter">
+                        <div class="footer">
                             <div class="row">
-                                <div class="tagCapsule"><b><p>Greenery</p></b></div>
+                                <div class="tag"><b><p>Greenery</p></b></div>
                             </div>
-                            
                         </div>
-                        <div class="cardContent">
-                            <div class="card-title">
-                                <p><b>Get lost in the magnificent Amazon Rain Forest</b></p>
-                            </div>
-                            <div>
-                                <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: USA</span>
-                                <span class="sm-text greyText"><b>Uploaded by Joseph Doe</b></span>
-                            </div>
-                            <div class="sm-text row">
-                                <p><i class="fa fa-eye pr-1"></i><b>5k <span class="greyText pr-1">Views</span><i class="fa fa-thumbs-up pr-1"></i>200 <span class="greyText">Likes</span></b></p>
-                            </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <p><b>Get lost in the magnificent Amazon Rain Forest</b></p>
+                        </div>
+                        <div>
+                            <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: <b>USA</b></span>
+                            <span class="sm-text">Uploaded by <b>Joseph Doe</b></span>
+                        </div>
+                        <div class="sm-text row">
+                            <p><i class="fa fa-eye mr-1"></i><b>5k <span class="text-greymr-2">Views</span><i class="fa fa-thumbs-up mr-1"></i>200 <span class="greyText">Likes</span></b></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-4 shadow">
                 <div class="card">
-                    <div class="cardImg">
+                    <div class="card-img-container">
                         <img src="./assets/beach1.jpg" alt="beach1" />
                         <div class="ribbon">
                             <span class="ribbon-text">#3 Trending</span>
                         </div>
-                        <div class="card-play">
+                        <div class="play">
                             <i class="fa fa-play"></i>
                         </div>
-                        <div class="imageFooter">
+                        <div class="footer">
                             <div class="row">
-                                <div class="tagCapsule"><b><p>Beach</p></b></div>
-                                <div class="tagCapsule"><b><p>Goa</p></b></div>
+                                <div class="tag"><b><p>Beach</p></b></div>
+                                <div class="tag"><b><p>Goa</p></b></div>
                             </div>
-                            
                         </div>
-                        <div class="cardContent">
-                            <div class="card-title">
-                                <p><b>A Goa trip that didn't get cancelled luckily!</b></p>
-                            </div>
-                            <div>
-                                <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: India</span>
-                                <span class="sm-text greyText"><b>Uploaded by Vivek Arora</b></span>
-                            </div>
-                            <div class="sm-text row">
-                                <p><i class="fa fa-eye pr-1"></i><b>35k <span class="greyText pr-1">Views</span><i class="fa fa-thumbs-up pr-1"></i>10k <span class="greyText">Likes</span></b></p>
-                            </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <p><b>A Goa trip that didn't get cancelled luckily!</b></p>
+                        </div>
+                        <div>
+                            <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: <b>India</b></span>
+                            <span class="sm-text">Uploaded by <b>Vivek Arora</b></span>
+                        </div>
+                        <div class="sm-text row">
+                            <p><i class="fa fa-eye mr-1"></i><b>35k <span class="text-greymr-2">Views</span><i class="fa fa-thumbs-up mr-1"></i>10k <span class="greyText">Likes</span></b></p>
                         </div>
                     </div>
                 </div>
@@ -140,92 +138,89 @@
         <div class="row">
             <div class="col-4 shadow">
                 <div class="card">
-                    <div class="cardImg">
+                    <div class="card-img-container">
                         <img src="./assets/ferrari.jpeg" alt="ferrari" />
                         <div class="ribbon">
                             <span class="ribbon-text">#1 Trending</span>
                         </div>
-                        <div class="card-play">
+                        <div class="play">
                             <i class="fa fa-play"></i>
                         </div>
-                        <div class="imageFooter">
+                        <div class="footer">
                             <div class="row">
-                                <div class="tagCapsule"><b><p>Cars</p></b></div>
-                                <div class="tagCapsule"><b><p>Amusement Park</p></b></div>
+                                <div class="tag"><b><p>Cars</p></b></div>
+                                <div class="tag"><b><p>Amusement Park</p></b></div>
                             </div>
-                            
                         </div>
-                        <div class="cardContent">
-                            <div class="card-title">
-                                <p><b>Ferrari World: The perfect place to fulfill your andrenaline rush</b></p>
-                            </div>
-                            <div>
-                                <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: Dubai</span>
-                                <span class="sm-text greyText"><b>Uploaded by Farhin Ahmed</b></span>
-                            </div>
-                            <div class="sm-text row">
-                                <p><i class="fa fa-eye pr-1"></i><b>50k <span class="greyText pr-1">Views</span><i class="fa fa-thumbs-up pr-1"></i>23k <span class="greyText">Likes</span></b></p>
-                            </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <p><b>Ferrari World: The perfect place to fulfill your andrenaline rush</b></p>
+                        </div>
+                        <div>
+                            <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: <b>Dubai</b></span>
+                            <span class="sm-text greyText">Uploaded by <b>Farhin Ahmed</b></span>
+                        </div>
+                        <div class="sm-text row">
+                            <p><i class="fa fa-eye mr-1"></i><b>50k <span class="text-greymr-2">Views</span><i class="fa fa-thumbs-up mr-1"></i>23k <span class="greyText">Likes</span></b></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-4 shadow">
                 <div class="card">
-                    <div class="cardImg">
+                    <div class="card-img-container">
                         <img src="./assets/NY.jpg" alt="NY" />
                         <div class="ribbon">
                             <span class="ribbon-text">#5 Trending</span>
                         </div>
-                        <div class="card-play">
+                        <div class="play">
                             <i class="fa fa-play"></i>
                         </div>
-                        <div class="imageFooter">
+                        <div class="footer">
                             <div class="row">
-                                <div class="tagCapsule"><b><p>City</p></b></div>
-                            </div>
-                            
+                                <div class="tag"><b><p>City</p></b></div>
+                            </div> 
                         </div>
-                        <div class="cardContent">
-                            <div class="card-title">
-                                <p><b>New York, a city that never gets old and truely justifes its name</b></p>
-                            </div>
-                            <div>
-                                <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: New York</span>
-                                <span class="sm-text greyText"><b>Uploaded by Sam Hamston</b></span>
-                            </div>
-                            <div class="sm-text row">
-                                <p><i class="fa fa-eye pr-1"></i><b>30k <span class="greyText pr-1">Views</span><i class="fa fa-thumbs-up pr-1"></i>18k <span class="greyText">Likes</span></b></p>
-                            </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <p><b>New York, a city that never gets old and truely justifes its name</b></p>
+                        </div>
+                        <div>
+                            <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: <b>New York</b></span>
+                            <span class="sm-text greyText">Uploaded by <b>Sam Hamston</b></span>
+                        </div>
+                        <div class="sm-text row">
+                            <p><i class="fa fa-eye mr-1"></i><b>30k <span class="text-greymr-2">Views</span><i class="fa fa-thumbs-up mr-1"></i>18k <span class="greyText">Likes</span></b></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-4 shadow">
                 <div class="card">
-                    <div class="cardImg">
+                    <div class="card-img-container">
                         <img src="./assets/colloseum.jpeg" alt="colloseum" />
-                        <div class="card-play">
+                        <div class="play">
                             <i class="fa fa-play"></i>
                         </div>
-                        <div class="imageFooter">
+                        <div class="footer">
                             <div class="row">
-                                <div class="tagCapsule"><b><p>Monument</p></b></div>
+                                <div class="tag"><b><p>Monument</p></b></div>
                             </div>
-                            
                         </div>
-                        <div class="cardContent">
-                            <div class="card-title">
-                                <p><b>Colloseum, an ancient architectural beauty that will keep you amused</b></p>
-                            </div>
-                            <div>
-                                <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: Rome</span>
-                                <span class="sm-text greyText"><b>Uploaded by Neman Sabi</b></span>
-                            </div>
-                            <div class="sm-text row">
-                                <p><i class="fa fa-eye pr-1"></i><b>10k <span class="greyText pr-1">Views</span><i class="fa fa-thumbs-up pr-1"></i>19k <span class="greyText">Likes</span></b></p>
-                            </div>   
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <p><b>Colloseum, an ancient architectural beauty that will keep you amused</b></p>
                         </div>
+                        <div>
+                            <span class="sm-text pr-1 br-1"><i class="fa fa-map-marker pr-1"></i>Location: <b>Rome</b></span>
+                            <span class="sm-text greyText">Uploaded by <b>Neman Sabi</b></span>
+                        </div>
+                        <div class="sm-text row">
+                            <p><i class="fa fa-eye mr-1"></i><b>10k <span class="text-greymr-2">Views</span><i class="fa fa-thumbs-up mr-1"></i>19k <span class="greyText">Likes</span></b></p>
+                        </div>   
                     </div>
                 </div>
             </div>
